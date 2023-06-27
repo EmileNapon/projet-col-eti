@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
-import { Example } from 'src/app/authServices/Auth';
+import { Example } from './authServices/Auth';
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl:'
+
+',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  exampleValue: string;
-  constructor(private A: Example) {
-    this.exampleValue = this.A.getValue();
+  e: string;
+  constructor(private klnh: Example) {
+    this.e = this.klnh.getValue();
   }
 }
